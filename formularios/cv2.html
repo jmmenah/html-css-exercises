@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rellena tu CV</title>
+</head>
+<body>
+	<h2>Rellena tu CV</h2>
+	<form action="/insertar_cv.php" method="post">
+		<fieldset>
+			<legend>Datos personales</legend>
+			<label for="provincia">Provincia</label><br/>
+			<select id="provincia" name="provincia">
+				<option value="" selected="selected">- seleciona -</option>
+				<option value="jaen">Jaén</option>
+				<option value="granada">Granada</option>
+				<option value="malaga">Málaga</option>
+				<option value="cordoba">Córdoba</option>
+				<option value="cadiz">Cádiz</option>
+				<option value="huelva">Huelva</option>
+				<option value="almeria">Almería</option>
+				<option value="sevilla">Sevilla</option>
+			</select>
+			<br/>
+			<br/>
+			<label for="fechanacimiento">Fecha de nacimiento</label><br/>
+			<input type="text" id="fechanacimiento" size="2" name="dia"/>de
+			<select id="fechanacimiento" name="mes">
+				<option value="enero">Enero</option>
+				<option value="febrero">Febrero</option>
+				<option value="marzo">Marzo</option>
+				<option value="abril">Abril</option>
+				<option value="mayo">Mayo</option>
+				<option value="junio">Junio</option>
+				<option value="julio">Julio</option>
+				<option value="agosto">Agosto</option>
+				<option value="septiembre">Septiembre</option>
+				<option value="octubre">Octubre</option>
+				<option value="noviembre">Noviembre</option>
+				<option value="diciembre">Diciembre</option>
+			</select>de
+			<input type="text" id="fechanacimiento" size="4" name="año"/><br/>
+			<br/>
+			<label for="temasinteres">Temas de interés</label><br/>
+			<select id="temasinteres" name="temasinteres" size="5">
+				<option value="basesdedatos">Administracion de bases de datos</option>
+				<option value="programacion">Análisis y programación</option>
+				<option value="arquitectura">Arquitectura</option>
+				<option value="calidad">Calidad</option>
+				<option value="bussiness">ERP, CRM, Bussiness Inteligence</option>
+				<option value="marcas">Lenguajes de Marcas</option>
+				<option value="servidor">Gestión de servidor</option>
+				<option value="clientes">Gestión de clientes</option>
+			</select>
+
+		</fieldset>
+	</form>
+
+</body>
+</html>

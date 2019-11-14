@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Informacion sobre el producto</title>
+</head>
+<body>
+	<h2>Información sobre el producto</h2>
+	<form action="/insertar_producto.php" method="post">
+		<fieldset>
+			<legend>Datos básicos</legend>
+			<label for="nombre">Nombre</label><br/>
+			<input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre..."/><br/>
+			<br/>
+			<label for="descripcion">Descripción</label><br/>
+			<textarea id="descripcion" name="descripcion" cols="40" rows="5" placeholder="Escribe una descripción..."></textarea><br/>
+			<br/>
+			<label for="foto">Foto</label>
+			<input type="file" id="foto" name="foto"/><br/>
+			<br/>
+			<input type="checkbox" id="contador" name="contador"/>
+			<label for="contador">Añadir contador de visitas</label>
+		</fieldset>
+		<fieldset>
+			<legend>Datos económicos</legend>
+			<label for="precio">Precio</label>
+			<input type="text" id="precio" name="precio" size="5"/> € &nbsp;&nbsp;&nbsp;&nbsp; 
+			<label for="impuestos">Impuestos</label>
+			<select id="impuestos" name="impuestos">
+				<option value="4">4%</option>
+				<option value="7">7%</option>
+				<option value="16">16%</option>
+				<option value="">25%</option>
+			</select><br/>
+			<br/>
+			<label for="promocion">Promoción</label><br/>
+			<input type="radio" id="promocion" name="promocion" value="ninguno" checked="checked"/>Ninguno<br/>
+			<input type="radio" id="promocion" name="promocion" value="transportegratuito"/>Transporte gratuito<br/>
+			<input type="radio" id="promocion" name="promocion" value="descuento"/>Descuento 5%<br/>
+		</fieldset>
+	</form>
+
+</body>
+</html>
