@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Formulario</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<label for="familyname">Family name</label>
+			<input type="text" id="familyname" name="familyname" value="Family name"/>
+			<br/>
+			<br/>
+			<label for="othername">Other name</label>
+			<input type="text" id="othername" name="othername" value="Other names"/>
+			<br/>
+			<br/>
+			<label for="adress">Adress</label>
+			<input type="text" id="adress" name="adress" value="Adress"/>
+			<br/>
+			<br/>
+			<label for="suburb">Suburb</label>
+			<select id="suburb" name="suburb">
+				<option value=" " selected="selected">Vic(drop down menu)</option>
+				<option value="elemento1">Elemento 1</option>
+				<option value="elemento2">Elemento 2</option>
+				<option value="elemento3">Elemento 3</option>
+				<option value="elemento4">Elemento 4</option>
+			</select>
+			<br/>
+			<br/>
+			<label for="state">State/Territory</label>
+			<br/>
+			<br/>
+			<table>
+				<tr>
+					<td><label for="curseinfo">Curse Info On:</label></td>
+					<td>
+						<input type="checkbox" id="engineering" name="engineering"/><label for="engineering">Engineering</label><br/>
+						<input type="checkbox" id="it" name="it"/><label for="it">IT</label><br/>
+						<input type="checkbox" id="law" name="law"/><label for="law">Law</label><br/>
+						<input type="checkbox" id="medicine" name="medicine"/><label for="medicine">Medicine</label><br/>
+						<input type="checkbox" id="nursing" name="nursing"/><label for="nursing">Nursing</label><br/>
+					</td>
+				</tr>
+				<tr>
+					<td><label for="degree">Degree:</label></td>
+					<td>
+						<input type="radio" name="diploma" id="diploma"/><label for="diploma">Diploma</label><br/>
+						<input type="radio" name="degree" id="degree"/><label for="degree">Degree</label><br/>
+						<input type="radio" name="honours" id="honours"/><label for="honours">Honours</label><br/>
+						<input type="radio" name="masters" id="masters"/><label for="masters">Masters</label><br/>
+						<input type="radio" name="phd" id="phd"/><label for="phd">PhD</label><br/>
+					</td>
+				</tr>
+			</table>
+			<br/>
+			<br/>
+			<table>
+				<tr>
+					<td><label for="comments" >Comments</label></td>
+					<td><textarea id="comments" name="comments" cols="30" rows="5"></textarea></td>
+				</tr>
+			</table>
+			<br/>
+			<br/>
+			<center>
+			<input type="submit" name="submit">
+			<input type="reset" name="reset"/>
+			</center>
+		</fieldset>
+	</form>
+	<br/>
+	<a href="formulario.html">Siguiente ejercicio.</a>
+
+
+</body>
+</html>
