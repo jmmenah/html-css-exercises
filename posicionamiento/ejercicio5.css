@@ -1,0 +1,14 @@
+#menu{
+	position: absolute;
+	background-color: cyan;
+	width: 50%;
+	height: 100%;
+	left: 1em;
+}
+#columna2{
+	position: absolute;
+	background-color: yellow;
+	width: 50%;
+	height: 100%;
+	right: 1em;
+}

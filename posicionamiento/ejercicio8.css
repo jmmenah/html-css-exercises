@@ -1,0 +1,33 @@
+#cabecera{
+	background-color: red;
+	width: 100%;
+	height: 20%;
+	float: left;
+}
+#columna1{
+	background-color: blue;
+	width: 33.33%;
+	height: 60%;
+	float: left;
+}
+#columna2{
+	background-color: yellow;
+	width: 33.33%;
+	height: 60%;
+	float: left;
+}
+#columna3{
+	background-color: cyan;
+	width: 33.33%;
+	height: 60%;
+	float: left;
+}
+#pie{
+	background-color: green;
+	width: 100%;
+	height: 20%;
+	float: left;
+}
+body {
+	width: 960px;
+}

@@ -1,0 +1,9 @@
+#parrafo1 {
+	position: relative;
+	
+}
+#parrafo2 {
+	position: absolute;
+	top: 4px;
+	left: 10px;
+}
