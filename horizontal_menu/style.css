@@ -1,0 +1,22 @@
+ul.menu{ /*los elementos ul de la clase menu*/
+	clear:both; /*permite tener objetos flotantes a izquierda y derecha*/
+	float:left; /*hace que los elementos se vayan uniendo uno detras de otro a la izquierda*/
+	width:100%; /*el ancho es el 100% de la pantalla en la que se reproduce*/
+	list-style:none;/*elimina el estilo por defecto de las listas*/
+	margin:0;/*sin margen*/
+	padding:0;/*sin relleno*/
+	border-left:1px solid #7C7C7C;/*el borde izquierdo tiene 1 pixel de grosor es solido y con ese color*/
+	}
+ul.menu li{ /*los elementos li contendidos en los ul de la clase menu*/
+	float:left;/*hace que los elementos se vayan uniendo uno detras de otro a la izquierda*/
+	}
+ul.menu li a{ /*los elementos a dentro de los elementos li dentro de los elementos ul de la clase menu*/
+	padding:.3em; /*el relleno es 0.3em*/
+	display:block;/*los elementos se representan como un bloque*/
+	text-decoration:none;/*elimina el estilo del texto por defecto*/
+	color:#333;/*el color del texto*/
+	background:#F4F4F4;/*el color del fondo*/
+	border-top:1px solid #7C7C7C;/*el borde superior tiene 1 pixel de grosor es solido y con ese color*/
+	border-right:1px solid #7C7C7C;/*el borde derecho tiene 1 pixel de grosor es solido y con ese color*/
+	border-bottom:1px solid #9C9C9C;/*el borde inferior tiene 1 pixel de grosor es solido y con ese color*/
+}
